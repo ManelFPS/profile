@@ -1,0 +1,50 @@
+body {
+  font-family: Space Grotesk;
+  background-color: #ade8f4;
+  color: #0077b6;
+  padding: 25px;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: Space Mono;
+  color: #023e8a;
+}
+.links {
+  text-decoration: none;
+  color: #0a9396;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.links:hover {
+  color: #005f73;
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.card {
+  background-color: white;
+  padding: 50px;
+  width: 850px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+@media (max-width: 1000px) {
+  .card {
+    width: 650px;
+  }
+}
+@media (max-width: 800px) {
+  .card {
+    width: 450px;
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    width: 250px;
+  }
+}
